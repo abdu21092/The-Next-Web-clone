@@ -1,0 +1,111 @@
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+
+  /* justify-items: center;
+  align-items: center; */
+}
+
+.bgr {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(207, 25, 25, 0.8),rgb(5, 0, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Star-chart-hed-796x419.jpg);
+  
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1hr; */
+}
+
+.big div {
+  margin: 10px;
+  /* display: grid; */
+  /* grid-template-columns: 1hr 1hr; */
+  /* grid-template-rows: 5hr; */
+}
+
+.tnw {
+  grid-row: 1/2;
+}
+
+.friday {
+  grid-column: 3/4;
+}
+
+.world {
+  grid-row: 3/4;
+  align-items: end;
+}
+
+.there {
+  /* grid-row: 4/span3; */
+  grid-column: 1/span3;
+}
+
+.by {
+  grid-row: 5/6;
+}
+
+.tnw {
+  font-family: 'Wendy One', sans-serif;
+  color: #fff;
+  
+}
+
+
+.news {
+  background-color: aqua;
+  padding: 10px;
+
+  /* text-align: center; */
+}
+
+.tnw {
+  grid-row: span 2;
+}
+
+.latest {
+  margin: 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.funding {
+  display: grid;
+  grid-gap: 10px;
+  margin: 20px 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.color {
+  background-color: aquamarine;
+}
+
+.big {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 20px 50px;
+}
+
+.deal-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 20px 50px;
+
+  /* grid-template-rows: repeat(2, 1fr); */
+}
+
+.foot {
+  background-color: #131313;
+  padding: 50px;
+}
+
+* {
+  border: 1px solid black;
+}
